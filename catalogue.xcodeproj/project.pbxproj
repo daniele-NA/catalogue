@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		64A5B8F42EBF267B0027453E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 64A5B8F32EBF26740027453E /* .gitignore */; };
+		64A5B8F62EBF288A0027453E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64A5B8F52EBF28850027453E /* README.md */; };
+		64A5B8FB2EBF29190027453E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 64A5B8FA2EBF29160027453E /* LICENSE */; };
 		64E3DFCE2EBA974A00249EF0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 64E3DFCD2EBA974A00249EF0 /* FirebaseAuth */; };
 		64E3DFD02EBA974A00249EF0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 64E3DFCF2EBA974A00249EF0 /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		64A5B8F32EBF26740027453E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		64A5B8F52EBF28850027453E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		64A5B8FA2EBF29160027453E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		64E3DFBE2EBA961F00249EF0 /* catalogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catalogue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -41,6 +45,8 @@
 		64E3DFB52EBA961F00249EF0 = {
 			isa = PBXGroup;
 			children = (
+				64A5B8FA2EBF29160027453E /* LICENSE */,
+				64A5B8F52EBF28850027453E /* README.md */,
 				64A5B8F32EBF26740027453E /* .gitignore */,
 				64E3DFC02EBA961F00249EF0 /* catalogue */,
 				64E3DFBF2EBA961F00249EF0 /* Products */,
@@ -124,7 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A5B8FB2EBF29190027453E /* LICENSE in Resources */,
 				64A5B8F42EBF267B0027453E /* .gitignore in Resources */,
+				64A5B8F62EBF288A0027453E /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
