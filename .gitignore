@@ -1,0 +1,46 @@
+
+# =========================
+# Xcode
+# =========================
+DerivedData/
+build/
+*.xcuserstate
+*.xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# =========================
+# Swift Package Manager
+# =========================
+/.build/
+/Packages/
+
+# =========================
+# CocoaPods
+# =========================
+/Pods/
+
+# =========================
+# Carthage
+# =========================
+/Carthage/Build/
+
+# =========================
+# Fastlane
+# =========================
+/fastlane/report.xml
+/fastlane/Preview.html
+/fastlane/screenshots/**/*.png
+/fastlane/test_output
+
+# =========================
+# Misc
+# =========================
+*.DS_Store
+*.swp
+*.lock
+*.bak
+*.tmp
+
+/catalogue/other/GoogleService-Info.plist
