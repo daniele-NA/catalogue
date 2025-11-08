@@ -1,7 +1,5 @@
 # 📱 Catalogue
 
-[GitHub Repo](https://github.com/daniele-NA/catalogue)
-
 **Catalogue** is an iOS app written in **Swift** using **SwiftUI** with **MVVM architecture**.
 It integrates **Firebase** for authentication and data storage.
 
