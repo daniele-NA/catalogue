@@ -21,9 +21,22 @@
 		64E3DFBE2EBA961F00249EF0 /* catalogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catalogue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		64A788742EC63CAF00E854E2 /* Exceptions for "catalogue" folder in "catalogue" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 64E3DFBD2EBA961F00249EF0 /* catalogue */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		64E3DFC02EBA961F00249EF0 /* catalogue */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				64A788742EC63CAF00E854E2 /* Exceptions for "catalogue" folder in "catalogue" target */,
+			);
 			path = catalogue;
 			sourceTree = "<group>";
 		};
@@ -281,10 +294,10 @@
 				DEVELOPMENT_TEAM = UNX45775Y4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = catalogue/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = catalogue;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -318,10 +331,10 @@
 				DEVELOPMENT_TEAM = UNX45775Y4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = catalogue/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = catalogue;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
