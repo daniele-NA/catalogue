@@ -1,7 +1,5 @@
 import SwiftUI
 
-import SwiftUI
-
 // command A  poi ctrl i
 struct RegisterView: View {
     
@@ -16,12 +14,12 @@ struct RegisterView: View {
             ZStack(alignment: .top) {
                 RoundedRectangle(cornerRadius: 0)
                     .fill(Color.orange)
-                    .frame(width: width, height: 300)
+                    .frame(width: width, height: 320)
                     .offset(y: -150)
                 
                 
                 VStack(spacing: 20) {
-                    VStack(spacing: 10) {
+                    VStack(spacing: 30) {
                         Text("Register")
                             .font(.system(size: 60, weight: .bold))
                             .foregroundColor(.white)
