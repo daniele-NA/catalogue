@@ -43,7 +43,7 @@ build/
 *.bak
 *.tmp
 catalogue.xcodeproj
-catalogue.xcodeproj/xcuserdata
+catalogue.xcodeproj/xcuserdata/daniele.xcuserdatad/xcschemes
 
 ./.idea
 .idea
