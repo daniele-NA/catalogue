@@ -19,6 +19,8 @@
 		64A5B8F52EBF28850027453E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		64A5B8FA2EBF29160027453E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		64E3DFBE2EBA961F00249EF0 /* catalogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catalogue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F03EF02F138D6D00B2F6B7 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		64F03EF12F138D6D00B2F6B7 /* main.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -58,6 +60,7 @@
 		64E3DFB52EBA961F00249EF0 = {
 			isa = PBXGroup;
 			children = (
+				64F03EEF2F138D4E00B2F6B7 /* ASSETS */,
 				64A5B8FA2EBF29160027453E /* LICENSE */,
 				64A5B8F52EBF28850027453E /* README.md */,
 				64A5B8F32EBF26740027453E /* .gitignore */,
@@ -72,6 +75,15 @@
 				64E3DFBE2EBA961F00249EF0 /* catalogue.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		64F03EEF2F138D4E00B2F6B7 /* ASSETS */ = {
+			isa = PBXGroup;
+			children = (
+				64F03EF02F138D6D00B2F6B7 /* main.png */,
+				64F03EF12F138D6D00B2F6B7 /* main.svg */,
+			);
+			path = ASSETS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
