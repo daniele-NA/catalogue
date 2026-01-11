@@ -42,7 +42,7 @@ build/
 *.lock
 *.bak
 *.tmp
-
+catalogue.xcodeproj
 
 ./.idea
 .idea
