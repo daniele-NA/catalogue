@@ -43,6 +43,7 @@ build/
 *.bak
 *.tmp
 catalogue.xcodeproj
+catalogue.xcodeproj/xcuserdata
 
 ./.idea
 .idea
