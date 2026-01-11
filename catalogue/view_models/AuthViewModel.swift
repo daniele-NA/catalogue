@@ -46,6 +46,10 @@ final class AuthViewModel: ObservableObject {
         error = nil
         print("\(isRegister ? "Register" : "Login") with \(trimmedEmail) | \(trimmedPassword)")
         
+        
+        // == Send notification == //
+        NotificationSender().sendWelcomeNotification()
+        
         if isRegister {
             Auth.auth().createUser(withEmail: trimmedEmail, password: trimmedPassword) { [weak self] result, err in
                 self?.handleAuth(result: result, err: err, isRegister: true, email: trimmedEmail)

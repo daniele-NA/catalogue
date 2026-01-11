@@ -4,6 +4,7 @@ struct ItemsView: View {
     @StateObject private var viewModel = ItemsViewModel()
     @State private var showNewItem = false
 
+    
     var body: some View {
         NavigationStack {
             List(viewModel.currentItems, id: \ItemDto.id) {
